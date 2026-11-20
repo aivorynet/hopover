@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  Free to move, pay on delivery. If it works, I want a <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">coffee</a>, or a <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">review</a> and a <a href="https://github.com/aivorynet/hopover">star</a>.<br>
+  Free to move, pay on delivery. If it works, I want a <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">coffee</a>, or a <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">review</a> and a <a href="https://github.com/aivorynet/hopover">star</a>.<br>
   If it fails, you owe me nothing. <a href="https://github.com/aivorynet/hopover/issues/new">Open a ticket</a> and I'll fix it :)
 </p>
 
@@ -90,7 +90,7 @@ So I built it. It's young - my own move is its first big test - so keep a backup
 &nbsp;
 
 <p align="center">
-  Did your move work? <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">Buy me a coffee</a> - <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">leave a review</a> - <a href="https://github.com/aivorynet/hopover">star the repo</a>
+  Did your move work? <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">Buy me a coffee</a> - <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">leave a review</a> - <a href="https://github.com/aivorynet/hopover">star the repo</a>
 </p>
 
 <p align="center"><sub>Made by <a href="https://aivory.net/">AIVory</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>
