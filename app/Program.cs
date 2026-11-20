@@ -67,8 +67,11 @@ namespace Hopover.App
                 {
                     // An elevated process cannot read the share or network path this one came from:
                     // run a local copy.
+                    // The Store package (C:\Program Files\WindowsApps) runs the same local copy: the elevated copy
+                    // then behaves like the portable exe (engine, firewall rule, scheduled tasks name its path).
                     string run = exe;
-                    if (!Win32.IsLocalFixedPath(exe))
+                    bool packaged = Win32.IsPackaged();
+                    if (packaged || !Win32.IsLocalFixedPath(exe))
                     {
                         string dir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Hopover");
                         Directory.CreateDirectory(dir);

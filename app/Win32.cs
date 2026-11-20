@@ -29,6 +29,16 @@ namespace Hopover.App
             DwmSetWindowAttribute(hwnd, 35, ref caption, 4);  // DWMWA_CAPTION_COLOR
         }
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Unicode)]
+        static extern int GetCurrentPackageFullName(ref int length, System.Text.StringBuilder name);
+
+        /// <summary>True when this process runs with a package identity (the Store MSIX).</summary>
+        public static bool IsPackaged()
+        {
+            try { int len = 0; return GetCurrentPackageFullName(ref len, null) != 15700; }   // APPMODEL_ERROR_NO_PACKAGE
+            catch (EntryPointNotFoundException) { return false; }
+        }
+
         public static bool IsLocalFixedPath(string path)
         {
             try

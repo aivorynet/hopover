@@ -3,3 +3,5 @@ store/
 obj/
 dist/shots/
 dist/hopover.ico
+dist/msix-stage/
+dist/*.msix
