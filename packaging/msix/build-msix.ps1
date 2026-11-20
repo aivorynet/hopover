@@ -3,10 +3,10 @@
 #        packaging\msix\build-msix.ps1 -Version 1.1.0 -Register   # also register the folder on this PC (Developer Mode)
 param(
   [Parameter(Mandatory)] [string] $Version,
-  # Values from Partner Center > Hopover > Product identity (AIVory, Inc. account, same publisher as AIVory Code).
-  [string] $IdentityName = "AIVoryInc.Hopover",
+  # Values from Partner Center > Hopover by AIVory (9MXW03T66MRB) > Product identity. "Hopover" is taken (ilscipio account).
+  [string] $IdentityName = "AIVoryInc.HopoverbyAIVory",
   [string] $Publisher = "CN=1E786547-45C5-4CB8-8218-99D720EF3558",
-  [string] $PublisherDisplay = "AIVory, Inc.",
+  [string] $PublisherDisplay = "AIVory",
   [switch] $Register
 )
 $ErrorActionPreference = "Stop"
