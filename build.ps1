@@ -81,7 +81,7 @@ $rsp = Join-Path $Obj 'csc.rsp'
 $tfm = Join-Path $Obj 'TargetFramework.cs'
 '[assembly: System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.8")]' | Set-Content $tfm -Encoding ASCII
 # A release gets the number of its tag (v1.0.<run>, see release.yml). A local build stays 1.0.0.
-$ver = if ($env:GITHUB_RUN_NUMBER) { "1.0.$env:GITHUB_RUN_NUMBER" } else { '1.0.0' }
+$ver = if ($env:HOPOVER_VERSION) { $env:HOPOVER_VERSION } elseif ($env:GITHUB_RUN_NUMBER) { "1.1.$env:GITHUB_RUN_NUMBER" } else { '1.1.0' }
 $vcs = Join-Path $Obj 'Version.cs'
 @(
     "[assembly: System.Reflection.AssemblyVersion(`"$ver.0`")]",

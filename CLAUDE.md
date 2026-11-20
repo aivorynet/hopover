@@ -40,10 +40,16 @@ User steps: `README.md`.
 
 ## Publishing (2026-11-05)
 
-- GitLab (`ilscipio/projects/hopover`) is the source. GitHub `ilscipio/hopover` (public) is a mirror of it: change code on GitLab only.
-- winget id `Ilscipio.Hopover` (portable). Each release needs a new manifest in microsoft/winget-pkgs.
+- 2026-11-20: Hopover is an AIVory product ("Hopover by AIVory"), because the ilscipio GmbH Store account was stuck
+  for weeks (Microsoft case 2611110050000286). Website: aivory.net/hopover/ (aivory-hugo); ilscipio English URLs redirect there.
+  `hop.ilscipio.com` (meeting point) stays: old exes use it.
+- GitLab (`ilscipio/projects/hopover`) is the source. GitHub `aivorynet/hopover` (public, moved from ilscipio, old URLs redirect)
+  is a mirror of it: change code on GitLab only.
+- winget id `Aivory.Hopover` (portable). `Ilscipio.Hopover` (PR 471457) is closed. Each release needs a new manifest in microsoft/winget-pkgs.
+- Versions: `1.1.<run>` (`build.ps1`; `HOPOVER_VERSION` overrides it for a hand build). v1.1.0 was built by hand and released with `gh release create`.
 - `.github/workflows/release.yml` on GitHub: on a push that touches app, engine or config, it builds on `windows-2022`, runs the
-  selftest and publishes a release. Stable link: `https://github.com/ilscipio/hopover/releases/latest/download/Hopover.exe`.
+  selftest and publishes a release (aivorynet Actions budget: commit with `[skip ci]` for normal work).
+  Stable link: `https://github.com/aivorynet/hopover/releases/latest/download/Hopover.exe`.
 - `.gitlab-ci.yml` deploys only the meeting point (`rendezvous\`). `dist\Hopover.exe` in git is a local build; the release is built new.
 - The exe is unsigned: SmartScreen warns. This repo is public, history included: no secrets in files, ever.
 
@@ -150,6 +156,8 @@ User steps: `README.md`.
   OneDrive or git.
 - Cloud folders are never copied; they sync after sign-in. `Get-CloudRoots` reads Windows' SyncRootManager list; `profileExclude` names and `cloudDriveLabels` catch the rest (Google Drive looks like a fixed disk).
 - No DPI, monitor or hardware registry keys (`Control Panel\Desktop` only by value).
+- GitHub Actions only for major releases. The aivorynet org used up its whole Actions
+  budget (2026-11-10). Do not push tags, start workflows or trigger CI for normal work.
 
 ## Paul's machine facts
 

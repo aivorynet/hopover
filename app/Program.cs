@@ -13,8 +13,8 @@ using System.Windows.Media.Animation;
 [assembly: AssemblyTitle("Hopover")]
 [assembly: AssemblyProduct("Hopover")]
 [assembly: AssemblyDescription("Moves a Windows PC to a new one over the LAN")]
-[assembly: AssemblyCompany("Ilscipio")]
-[assembly: AssemblyCopyright("(c) 2026 Ilscipio")]
+[assembly: AssemblyCompany("AIVory")]
+[assembly: AssemblyCopyright("(c) 2026 AIVory")]
 
 namespace Hopover.App
 {

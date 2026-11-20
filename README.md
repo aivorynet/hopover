@@ -8,23 +8,23 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ilscipio/hopover/releases/latest/download/Hopover.exe"><img src="https://img.shields.io/badge/Download-Hopover.exe-ff5a1f?style=for-the-badge&logo=windows&logoColor=white" alt="Download Hopover.exe" height="44"></a><br>
+  <a href="https://github.com/aivorynet/hopover/releases/latest/download/Hopover.exe"><img src="https://img.shields.io/badge/Download-Hopover.exe-ff5a1f?style=for-the-badge&logo=windows&logoColor=white" alt="Download Hopover.exe" height="44"></a><br>
   <sub>The exe isn't code-signed yet, so Windows shows "Windows protected your PC" once. Click <b>More info</b>, then <b>Run anyway</b>.<br>
-  You can check the file against the SHA-256 in the <a href="https://github.com/ilscipio/hopover/releases/latest">release notes</a>.</sub>
+  You can check the file against the SHA-256 in the <a href="https://github.com/aivorynet/hopover/releases/latest">release notes</a>.</sub>
 </p>
 
 <p align="center">
-  Or with winget: <code>winget install Ilscipio.Hopover</code><br>
+  Or with winget: <code>winget install Aivory.Hopover</code><br>
   <sub>winget installs it without the warning. The package is in review at Microsoft and isn't in the catalog yet. Until then, use the download above.</sub>
 </p>
 
 <p align="center">
-  Free to move, pay on delivery. If it works, I want a <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">coffee</a>, or a <a href="https://github.com/ilscipio/hopover/issues/new?title=My%20move%20with%20Hopover">review</a> and a <a href="https://github.com/ilscipio/hopover">star</a>.<br>
-  If it fails, you owe me nothing. <a href="https://github.com/ilscipio/hopover/issues/new">Open a ticket</a> and I'll fix it :)
+  Free to move, pay on delivery. If it works, I want a <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">coffee</a>, or a <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">review</a> and a <a href="https://github.com/aivorynet/hopover">star</a>.<br>
+  If it fails, you owe me nothing. <a href="https://github.com/aivorynet/hopover/issues/new">Open a ticket</a> and I'll fix it :)
 </p>
 
 <p align="center">
-  <sub>Windows 10 and 11 - one file, nothing to install, no account - <a href="https://www.ilscipio.com/en/apps/hopover/">website</a> - <a href="https://www.ilscipio.com/en/apps/hopover/docs/">docs</a> - <a href="https://www.ilscipio.com/apps/hopover/">auf Deutsch</a></sub>
+  <sub>Windows 10 and 11 - one file, nothing to install, no account - <a href="https://aivory.net/hopover/">website</a> - <a href="https://aivory.net/hopover-docs/">docs</a> - <a href="https://www.ilscipio.com/apps/hopover/">auf Deutsch</a></sub>
 </p>
 
 &nbsp;
@@ -90,7 +90,7 @@ So I built it. It's young - my own move is its first big test - so keep a backup
 &nbsp;
 
 <p align="center">
-  Did your move work? <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">Buy me a coffee</a> - <a href="https://github.com/ilscipio/hopover/issues/new?title=My%20move%20with%20Hopover">leave a review</a> - <a href="https://github.com/ilscipio/hopover">star the repo</a>
+  Did your move work? <a href="https://buy.stripe.com/28E4gz8pMasZgLv1Snbsc00">Buy me a coffee</a> - <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">leave a review</a> - <a href="https://github.com/aivorynet/hopover">star the repo</a>
 </p>
 
-<p align="center"><sub>Made by <a href="https://www.ilscipio.com/en/">ilscipio</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>
+<p align="center"><sub>Made by <a href="https://aivory.net/">AIVory</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>

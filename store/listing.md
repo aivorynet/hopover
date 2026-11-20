@@ -1,7 +1,7 @@
 # Microsoft Store listing - Hopover
 
 Paste these fields into Partner Center > Hopover > Store listings > English (United States).
-Publisher: ilscipio GmbH (pending support case 2611110050000286).
+Publisher: the AIVory Partner Center account (the one that publishes AIVory Code). The ilscipio GmbH account (case 2611110050000286) is dropped.
 
 ## Product name
 
@@ -79,7 +79,7 @@ First release in the Microsoft Store.
 
 ## Copyright and trademark
 
-(c) 2026 ilscipio GmbH
+(c) 2026 AIVory
 
 ## Additional license terms
 
@@ -87,9 +87,9 @@ Leave empty (standard Microsoft Store license terms). Source license: see LICENS
 
 ## Contact and URLs
 
-- Website: https://www.ilscipio.com/en/apps/hopover/
-- Support contact: https://github.com/ilscipio/hopover/issues
-- Privacy policy URL: https://www.ilscipio.com/en/privacy-policy-hopover/ (source: ilscipio-hugo content/en/privacy-policy-hopover.md, de: datenschutzerklaerung-hopover.md; publish before submission)
+- Website: https://aivory.net/hopover/
+- Support contact: https://github.com/aivorynet/hopover/issues
+- Privacy policy URL: https://aivory.net/hopover-privacy/ (source: aivory-hugo content/en/hopover-privacy.md)
 
 ## Screenshots (1366x768 or larger, PNG; up to 10)
 
