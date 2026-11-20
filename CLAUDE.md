@@ -46,6 +46,10 @@ User steps: `README.md`.
 - GitLab (`ilscipio/projects/hopover`) is the source. GitHub `aivorynet/hopover` (public, moved from ilscipio, old URLs redirect)
   is a mirror of it: change code on GitLab only.
 - winget id `Aivory.Hopover` (portable). `Ilscipio.Hopover` (PR 471457) is closed. Each release needs a new manifest in microsoft/winget-pkgs.
+- Microsoft Store: "Hopover by AIVory" (9MXW03T66MRB, AIVory account; "Hopover" is held by the ilscipio account). MSIX from
+  `packaging\msix\build-msix.ps1` (unvirtualizedResources, allowElevation, alias `hopover.exe`); upload the .msix in Partner Center,
+  it signs it. A packaged start elevates its copy in `%LOCALAPPDATA%\Hopover` (the elevated child of the package hung in WPF).
+  v1.1.1 submitted 2026-11-20, in certification.
 - Versions: `1.1.<run>` (`build.ps1`; `HOPOVER_VERSION` overrides it for a hand build). v1.1.0 was built by hand and released with `gh release create`.
 - `.github/workflows/release.yml` on GitHub: on a push that touches app, engine or config, it builds on `windows-2022`, runs the
   selftest and publishes a release (aivorynet Actions budget: commit with `[skip ci]` for normal work).
