@@ -19,8 +19,14 @@
 </p>
 
 <p align="center">
-  Free to move, pay on delivery. If it works, I want a <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">coffee</a>, or a <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">review</a> and a <a href="https://github.com/aivorynet/hopover">star</a>.<br>
-  If it fails, you owe me nothing. <a href="https://github.com/aivorynet/hopover/issues/new">Open a ticket</a> and I'll fix it :)
+  <b>Hopover is free.</b> No trial, no account, no catch.<br>
+  If it moved your PC and saved you a weekend of reinstalling, please buy me a coffee.<br>
+  That's what keeps it free, and keeps me fixing it.
+</p>
+
+<p align="center">
+  <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00"><img src="https://img.shields.io/badge/It%20worked-Buy%20me%20a%20coffee-6f4e37?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="It worked? Buy me a coffee" height="36"></a><br>
+  <sub>Didn't work? Then you owe me nothing. <a href="https://github.com/aivorynet/hopover/issues/new">Open a ticket</a> and I'll fix it :)</sub>
 </p>
 
 <p align="center">
@@ -33,7 +39,7 @@
 
 - **Your apps** come back through winget, Chocolatey and the Store. No installer left? The program moves as a folder.
 - **Your dev setup** moves too - WSL, Docker volumes, PostgreSQL, env vars, PATH, SSH keys, git logins, scheduled tasks.
-- **Your Windows settings** come along, and I care a lot about those - taskbar, Start pins, wallpaper, theme, desktop layout, Explorer, sounds, night light, mouse, keyboard, languages, region, power plan, notifications, privacy, Wi-Fi, hosts file, Windows features.
+- **Your Windows settings** come along - the small things you only notice when they're missing. Taskbar, Start pins, wallpaper, theme, desktop layout, Explorer, sounds, night light, mouse, keyboard, languages, region, power plan, notifications, privacy, Wi-Fi, hosts file, Windows features.
 - **Your app settings** arrive with all of AppData and the registry entries that go with it.
 - **Your files** come over, big repos, junctions and symlinks included.
 - **Your caches** too, if you want them. Gradle, npm, Playwright, IDE indexes. Each one is a tick in the list.
@@ -81,16 +87,18 @@ So I built it. It's young - my own move is its first big test - so keep a backup
 
 ## Good to know
 
-- The exe isn't signed yet, so a browser download makes Windows warn you once. Click **More info**, then **Run anyway**. winget skips that warning.
-- Docker images come back with your next pull. Browser profiles and OneDrive sync after you sign in.
-- OneDrive, SeaDrive, Google Drive, Dropbox and other cloud folders stay out of the move. They sync by themselves after you sign in.
+- The exe isn't signed yet, so Windows warns you once after a browser download. Click **More info**, then **Run anyway**.
+- OneDrive, SeaDrive, Google Drive, Dropbox and other cloud folders stay out of the move. So do browser profiles. They all sync by themselves after you sign in.
+- Docker images come back with your next pull.
 - Epic, GOG, EA and Ubisoft games download again.
 - When you're done, click **Clean up** on both PCs, or say yes when you close Hopover. That removes its working folder with your Wi-Fi passwords and tokens. Your own files stay.
 
 &nbsp;
 
 <p align="center">
-  Did your move work? <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">Buy me a coffee</a> - <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">leave a review</a> - <a href="https://github.com/aivorynet/hopover">star the repo</a>
+  <b>Did your move work?</b> Then I'd really like that coffee: <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">buy me one here</a>.<br>
+  It takes a minute, and it's what keeps Hopover free for everyone.<br>
+  <sub>Can't spare one? A <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">short review</a> or a <a href="https://github.com/aivorynet/hopover">star</a> helps too.</sub>
 </p>
 
 <p align="center"><sub>Made by <a href="https://aivory.net/">AIVory</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>
