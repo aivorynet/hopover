@@ -5,7 +5,12 @@
   Apps, Windows settings, files, WSL and SSH keys. PC to PC over your own network, while you keep working. Windows 10 and 11.
 </p>
 
-<p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="560"></p>
+<table>
+  <tr>
+    <td width="50%"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it."></td>
+    <td width="50%"><img src="docs/what-moves.png" alt="The list of what moves"></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="#download"><b>Download</b></a> ·
@@ -41,8 +46,6 @@ The exe isn't code-signed yet, so Windows shows "Windows protected your PC" the 
 And the part I care about most: your old PC stays in use. Keep working during the move, then click **Catch up** to fetch what changed. If a file changed on both PCs, the new one keeps its version and the other waits for you in `C:\hopover-held`. Nothing gets thrown away.
 
 Nervous? Switch on **Preview first** and you get a text file of everything Hopover would do. Your files go directly from PC to PC, encrypted. No cloud in between.
-
-<p align="center"><img src="docs/what-moves.png" alt="The list of what moves" width="860"></p>
 
 ## How to move
 
