@@ -1,6 +1,6 @@
 # Hopover: move your Windows PC to a new PC
 
-<p align="center">
+<p>
   <b>Got a new Windows PC? Hopover moves everything from your old PC onto it.</b><br>
   Apps, Windows settings, files, WSL and SSH keys. PC to PC over your own network, while you keep working. Windows 10 and 11.
 </p>
