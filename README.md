@@ -5,10 +5,12 @@
   Apps, Windows settings, files, WSL and SSH keys. PC to PC over your own network, while you keep working. Windows 10 and 11.
 </p>
 
-<p align="center">
-  <img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="420">
-  <img src="docs/what-moves.png" alt="The list of what moves" width="420">
-</p>
+<table align="center">
+  <tr>
+    <td><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="380"></td>
+    <td><img src="docs/what-moves.png" alt="The list of what moves" width="380"></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="#download"><b>Download</b></a> ·
