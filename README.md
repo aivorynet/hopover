@@ -1,8 +1,8 @@
-# Hopover: move Windows to a new PC
+# Hopover: move your Windows PC to a new PC
 
 <p align="center">
-  <b>Move your old Windows PC to your new one. All of it.</b><br>
-  Windows 10 and 11. Apps, Windows settings, WSL, SSH keys and files, straight over your own network, while you keep working.
+  <b>Got a new Windows PC? Hopover moves everything from your old PC onto it.</b><br>
+  Apps, Windows settings, files, WSL and SSH keys. PC to PC over your own network, while you keep working. Windows 10 and 11.
 </p>
 
 <p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="560"></p>
@@ -19,7 +19,7 @@
   <a href="https://aivory.net/coffee/"><img src="docs/coffee-mug.svg" width="64" height="64" alt="Buy Paul a coffee"></a>
 </p>
 
-Hopover is free. Start it on both PCs, go do something else, and sit down at a new Windows PC that already feels like yours. One file, no account. [Auf Deutsch](https://www.ilscipio.com/apps/hopover/).
+Hopover is a Windows migration tool. Use it when you get a new PC and want it to work like your old one: the same apps, the same settings, the same files. Start it on both PCs, go do something else, and sit down at a new PC that already feels like yours. It's free, one file, no account. [Auf Deutsch](https://www.ilscipio.com/apps/hopover/).
 
 ## Download
 
