@@ -5,7 +5,7 @@
   Apps, settings, WSL, SSH keys and files, straight over your own network, while you keep working.
 </p>
 
-<p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="100%"></p>
+<p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="560"></p>
 
 <p align="center">
   <a href="#download"><b>Download</b></a> ·
