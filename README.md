@@ -1,39 +1,33 @@
-<h1 align="center">Windows to Windows Migration</h1>
-
-<p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="860"></p>
+# Hopover
 
 <p align="center">
-  Hopover moves your whole PC to a new one - apps, settings, WSL, SSH keys, files.<br>
-  Straight over your own network, while you keep working.
+  <b>Move to your new PC. All of it.</b><br>
+  Apps, settings, WSL, SSH keys and files, straight over your own network, while you keep working.
+</p>
+
+<p align="center"><img src="docs/welcome.png" alt="Hopover: Move to your new PC. All of it." width="100%"></p>
+
+<p align="center">
+  <a href="#download"><b>Download</b></a> ·
+  <a href="#how-to-move">How to move</a> ·
+  <a href="https://aivory.net/hopover-docs/">Docs</a> ·
+  <a href="https://github.com/aivorynet/hopover/issues">Issues</a> ·
+  <a href="#buy-me-a-coffee">Buy Paul a coffee</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/aivorynet/hopover/releases/latest/download/Hopover.exe"><img src="https://img.shields.io/badge/Download-Hopover.exe-ff5a1f?style=for-the-badge&logo=windows&logoColor=white" alt="Download Hopover.exe" height="44"></a><br>
-  <sub>The exe isn't code-signed yet, so Windows shows "Windows protected your PC" once. Click <b>More info</b>, then <b>Run anyway</b>.<br>
-  You can check the file against the SHA-256 in the <a href="https://github.com/aivorynet/hopover/releases/latest">release notes</a>.</sub>
+  <a href="https://aivory.net/coffee/"><img src="docs/coffee-mug.svg" width="64" height="64" alt="Buy Paul a coffee"></a>
 </p>
 
-<p align="center">
-  Or with winget: <code>winget install Aivory.Hopover</code><br>
-  <sub>winget installs it without the warning. The package is in review at Microsoft and isn't in the catalog yet. Until then, use the download above.</sub>
-</p>
+Hopover is free. Start it on both PCs, go do something else, and sit down at a new PC that already feels like yours. Windows 10 and 11, one file, no account. [Auf Deutsch](https://www.ilscipio.com/apps/hopover/).
 
-<p align="center">
-  <b>Hopover is free.</b> No trial, no account, no catch.<br>
-  If it moved your PC and saved you a weekend of reinstalling, please buy me a coffee.<br>
-  That's what keeps it free, and keeps me fixing it.
-</p>
+## Download
 
-<p align="center">
-  <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00"><img src="https://img.shields.io/badge/It%20worked-Buy%20me%20a%20coffee-6f4e37?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="It worked? Buy me a coffee" height="36"></a><br>
-  <sub>Didn't work? Then you owe me nothing. <a href="https://github.com/aivorynet/hopover/issues/new">Open a ticket</a> and I'll fix it :)</sub>
-</p>
+**[Download Hopover.exe](https://github.com/aivorynet/hopover/releases/latest/download/Hopover.exe)** and run it. There's nothing to install.
 
-<p align="center">
-  <sub>Windows 10 and 11 - one file, nothing to install, no account - <a href="https://aivory.net/hopover/">website</a> - <a href="https://aivory.net/hopover-docs/">docs</a> - <a href="https://www.ilscipio.com/apps/hopover/">auf Deutsch</a></sub>
-</p>
+The exe isn't code-signed yet, so Windows shows "Windows protected your PC" the first time. Click **More info**, then **Run anyway**. The SHA-256 is in the [release notes](https://github.com/aivorynet/hopover/releases/latest) if you want to check the file.
 
-&nbsp;
+`winget install Aivory.Hopover` is on its way. Microsoft is still reviewing the package.
 
 ## What it does
 
@@ -87,18 +81,22 @@ So I built it. It's young - my own move is its first big test - so keep a backup
 
 ## Good to know
 
-- The exe isn't signed yet, so Windows warns you once after a browser download. Click **More info**, then **Run anyway**.
 - OneDrive, SeaDrive, Google Drive, Dropbox and other cloud folders stay out of the move. So do browser profiles. They all sync by themselves after you sign in.
 - Docker images come back with your next pull.
 - Epic, GOG, EA and Ubisoft games download again.
 - When you're done, click **Clean up** on both PCs, or say yes when you close Hopover. That removes its working folder with your Wi-Fi passwords and tokens. Your own files stay.
 
-&nbsp;
+## Buy me a coffee
 
-<p align="center">
-  <b>Did your move work?</b> Then I'd really like that coffee: <a href="https://buy.stripe.com/5kQbJ3csm21Xfz64DhdjO00">buy me one here</a>.<br>
-  It takes a minute, and it's what keeps Hopover free for everyone.<br>
-  <sub>Can't spare one? A <a href="https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover">short review</a> or a <a href="https://github.com/aivorynet/hopover">star</a> helps too.</sub>
+Hopover is free. If your move worked, I'd love a coffee:
+
+<p>
+  <a href="https://aivory.net/coffee/"><img src="docs/coffee-mug.svg" width="96" height="96" alt="Buy Paul a coffee"></a><br>
+  <a href="https://aivory.net/coffee/"><b>Buy Paul a coffee</b></a>
 </p>
 
-<p align="center"><sub>Made by <a href="https://aivory.net/">AIVory</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>
+The coffee is a thank-you. It buys no license and no extra features, and it keeps me fixing Hopover. A [short review](https://github.com/aivorynet/hopover/issues/new?title=My%20move%20with%20Hopover) or a [star](https://github.com/aivorynet/hopover) helps too.
+
+Didn't work? Then you owe me nothing. [Open a ticket](https://github.com/aivorynet/hopover/issues/new) and I'll fix it.
+
+<p align="center"><sub>Made by <a href="https://aivory.net/">AIVory</a> · <a href="https://aivory.net/hopover/">Website</a>. Source available under the <a href="LICENSE.md">PolyForm Noncommercial License</a>. Build it yourself with <code>.\build.ps1</code>.</sub></p>
